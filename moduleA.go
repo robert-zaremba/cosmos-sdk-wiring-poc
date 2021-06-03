@@ -10,6 +10,7 @@ const (
 type ModuleA struct {
 	Key ModuleKey
 	Cdc Codec
+	// store
 
 	kind ProdKind
 }

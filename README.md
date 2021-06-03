@@ -12,3 +12,12 @@
 
 + Wire does not allow multiple providers for one type to exist in the transitive closure of the providers presented to wire.Build, as this is usually a mistake. For legitimate cases where you need multiple dependencies of the same type, you need to invent a new type to call this other dependency.
 For the same reason, wire forbids including the same provider multiple times.
+
+
+## Setup
+
+To regenerate wire initializers, run:
+
+```
+go generate
+```
